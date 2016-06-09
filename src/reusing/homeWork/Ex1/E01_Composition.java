@@ -1,4 +1,4 @@
-package reusing.homeWork;
+package reusing.homeWork.Ex1;
 
 public class E01_Composition {
     public static void main(String[] args) {

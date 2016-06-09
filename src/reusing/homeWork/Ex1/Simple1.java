@@ -1,4 +1,4 @@
-package reusing.homeWork;
+package reusing.homeWork.Ex1;
 
 public class Simple1 {
     String s;

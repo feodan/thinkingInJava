@@ -1,4 +1,4 @@
-package reusing.homeWork;
+package reusing.homeWork.Ex1;
 
 public class Second {
     Simple my= new Simple("qweqw");

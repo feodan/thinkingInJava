@@ -1,4 +1,4 @@
-package reusing.homeWork;
+package reusing.homeWork.Ex1;
 
 public class Ex1 {
     Second sec;
