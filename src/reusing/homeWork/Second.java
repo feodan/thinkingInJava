@@ -1,8 +1,14 @@
 package reusing.homeWork;
 
 public class Second {
-//    Simple my;
-    public void test(Simple my) {
+    Simple my= new Simple("qweqw");
 
+    public Simple test(String text) {
+        if (my == null) {
+            System.out.println("not init");
+        } else {
+            my = new Simple(text);
+        }
+        return my;
     }
 }
