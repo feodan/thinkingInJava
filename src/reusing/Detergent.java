@@ -1,14 +1,31 @@
 package reusing;
 
 public class Detergent extends Cleanser {
-    @Override
-    public void scrub() {
-        append(" Detergent.scrub()");
-        super.scrub();
-    }
+    private Cleanser cleanser = new Cleanser();
 
     public void foam() {
         append(" foam()");
+    }
+
+    @Override
+    public void append(String a) {
+        cleanser.append(a);
+    }
+
+    @Override
+    public void dilute() {
+        cleanser.dilute();
+    }
+
+    @Override
+    public void apply() {
+        cleanser.apply();
+    }
+
+    @Override
+    public void scrub() {
+        append(" DetergentDelegation.scrub()");
+        cleanser.scrub();
     }
 
     public static void main(String[] args) {
