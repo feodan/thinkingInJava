@@ -10,7 +10,15 @@ public class Stem extends Root {
         System.out.println("strem " + a);
     }
 
+    void dispose() {
+        System.out.println("Dispose Stem");
+        component3.dispose();
+        component2.dispose();
+        component1.dispose();
+        super.dispose();
+    }
+
     public static void main(String[] args) {
-        new Stem("stem");
+        new Stem("stem").dispose();
     }
 }

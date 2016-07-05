@@ -8,4 +8,11 @@ public class Root {
     public Root(String a) {
         System.out.println("root " + a);
     }
+
+    void dispose() {
+        System.out.println("Dispose Root");
+        component3.dispose();
+        component2.dispose();
+        component1.dispose();
+    }
 }
