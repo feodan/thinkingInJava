@@ -1,6 +1,6 @@
 package reusing.amphibian;
 
-public class Amphibian {
+class Amphibian {
     public void swim() {
         System.out.println("amphibian swim");
     }
