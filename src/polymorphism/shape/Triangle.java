@@ -10,4 +10,9 @@ public class Triangle extends Shape {
     public void erase() {
         System.out.println("Triangle.erase()");
     }
+
+    @Override
+    public void test3() {
+        System.out.println("Triangle.test3()");
+    }
 }

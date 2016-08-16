@@ -6,12 +6,14 @@ public class Road {
     }
 
     public static void main(String[] args) {
-//        Unicycle u = new Unicycle();
-        way(new Unicycle());
+        Unicycle u = new Unicycle();
         Bicycle b = new Bicycle();
-        way(b);
         Tricycle t = new Tricycle();
+
+        way(u);
+        way(b);
         way(t);
         way(new Cycle());
+
     }
 }

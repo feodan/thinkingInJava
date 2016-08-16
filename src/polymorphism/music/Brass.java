@@ -1,8 +1,13 @@
 package polymorphism.music;
 
-public class Brass extends Instrument {
+public class Brass extends Wind {
     @Override
     public void play(Note n) {
         System.out.println("Brass.play()" + n);
+    }
+
+    @Override
+    void adjust() {
+        System.out.println("Adjust Brass");
     }
 }
