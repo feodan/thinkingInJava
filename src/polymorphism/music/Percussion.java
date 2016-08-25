@@ -6,7 +6,7 @@ public class Percussion extends Instrument {
         System.out.println("Percussion.play()" + n);
     }
 
-    String what() {
+    public String toString() {
         return "Percussion";
     }
 

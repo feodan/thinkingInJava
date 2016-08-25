@@ -5,7 +5,7 @@ public class Woodwind extends Wind {
         System.out.println("Woodwind.play()" + n);
     }
 
-    String what() {
+    public String toString() {
         return "Woodwind";
     }
 }

@@ -16,9 +16,13 @@ public class Music3 {
                 new Percussion(),
                 new Stringed(),
                 new Brass(),
-                new Woodwind()
+                new Woodwind(),
+                new Gitar()
         };
 
         tuneAll(orchestra);
+
+        for (Instrument i : orchestra)
+            i.adjust();
     }
 }

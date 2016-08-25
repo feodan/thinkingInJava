@@ -6,7 +6,7 @@ public class Stringed extends Instrument {
         System.out.println("Stringed.play()" + n);
     }
 
-    String what() {
+    public String toString() {
         return "Stringed";
     }
 

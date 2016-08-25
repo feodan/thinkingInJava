@@ -6,7 +6,7 @@ public class Wind extends Instrument {
         System.out.println("Wind.play()" + n);
     }
 
-    String what() {
+    public String toString() {
         return "Wind";
     }
 
