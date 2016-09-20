@@ -2,9 +2,8 @@ package polymorphism.rodent;
 
 public class Exercise12 {
     public static void main(String[] args) {
-        Mouse m = new Mouse();
-        System.out.println(m.str);
-
-        new Hamster2();
+        Rodent2 rodent2 = new Rodent2();
+        Hamster2[] m = {new Hamster2(), new Hamster2()
+                , new Hamster2(), new Hamster2()};
     }
 }
