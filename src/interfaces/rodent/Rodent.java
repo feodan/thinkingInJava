@@ -1,16 +1,11 @@
 package interfaces.rodent;
 
-abstract class Rodent {
+interface Rodent {
     static String str = "Rodent member object";
 
-    public abstract void eat();
+    public void eat();
 
-    public abstract void sleep();
+    public void sleep();
 
-    public abstract void fuck();
-
-    @Override
-    public String toString() {
-        return "Rodent{}";
-    }
+    public void fuck();
 }

@@ -1,7 +1,7 @@
 package interfaces.music;
 
 public class Music4 {
-    static void tune(Instrument i) {
+    static void tune(Playable i) {
         i.play(Note.MIDDLE_C);
     }
 

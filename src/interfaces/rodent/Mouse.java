@@ -1,6 +1,6 @@
 package interfaces.rodent;
 
-public class Mouse extends Rodent {
+public class Mouse implements Rodent {
     String str = "Mouse member object " + Rodent.str;
 
     public Mouse() {

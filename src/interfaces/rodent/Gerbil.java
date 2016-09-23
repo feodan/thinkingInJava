@@ -1,6 +1,6 @@
 package interfaces.rodent;
 
-public class Gerbil extends Rodent {
+public class Gerbil implements Rodent {
     @Override
     public void eat() {
         System.out.println( "Food in desert");

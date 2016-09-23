@@ -1,17 +1,6 @@
 package interfaces.music5;
 
-import polymorphism.music.Note;
-
-class Wind implements Instrument {
-    @Override
-    public void play(Note n) {
-        System.out.println(this + ".play " + n);
-    }
-
-    @Override
-    public void adjust() {
-        System.out.println(this + "adjust");
-    }
+class Wind extends AbstractForMusic implements Instrument {
 
     @Override
     public String toString() {
