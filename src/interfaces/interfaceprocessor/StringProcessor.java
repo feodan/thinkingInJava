@@ -7,6 +7,7 @@ public abstract class StringProcessor implements Processor {
         Apply.process(new Upcase(), s);
         Apply.process(new Downcase(), s);
         Apply.process(new Splitter(), s);
+        Apply.process(new Swapper(), s);
     }
 
     @Override
